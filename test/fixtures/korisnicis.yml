@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ime: MyString
+  prezime: MyString
+
+two:
+  ime: MyString
+  prezime: MyString
