@@ -10,7 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
+ActiveRecord::Schema.define(:version => 20111220202122) do
+=======
 ActiveRecord::Schema.define(:version => 20111220173112) do
+>>>>>>> 58f0c199b6152ee8a3256f71f36c7c33e43f467c
 
   create_table "korisnicis", :force => true do |t|
     t.string   "ime"
@@ -24,7 +28,10 @@ ActiveRecord::Schema.define(:version => 20111220173112) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+<<<<<<< HEAD
+=======
     t.string   "body_html"
+>>>>>>> 58f0c199b6152ee8a3256f71f36c7c33e43f467c
     t.string   "content_html"
   end
 

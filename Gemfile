@@ -12,6 +12,8 @@ gem 'capistrano'
 
 end
 
+gem 'auto_html'
+
 gem 'rails', '3.0.5'
 
 gem 'gravatar_image_tag', '0.1.0'
