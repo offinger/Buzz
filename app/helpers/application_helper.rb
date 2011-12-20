@@ -3,7 +3,7 @@ module ApplicationHelper
   #vraca titl stranice, embedovan
   
   def title
-    base_title="Ruby on Rails Tutorial Sample App"
+    base_title="Sweeter"
     
     if @title.nil?
       base_title
