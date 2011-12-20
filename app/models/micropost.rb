@@ -1,4 +1,11 @@
 class Micropost < ActiveRecord::Base
+  
+      auto_html_for :content do
+        youtube :width => 400, :height => 250
+        vimeo :width => 400, :height => 250
+      end
+      
+  
   attr_accessible :content
   
   belongs_to :user
@@ -10,6 +17,8 @@ class Micropost < ActiveRecord::Base
   
   # Return microposts from the users being followed by the given user.
   scope :from_users_followed_by, lambda { |user| followed_by(user) }
+  
+  
   
   private
   

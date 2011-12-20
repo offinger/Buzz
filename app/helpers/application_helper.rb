@@ -1,5 +1,7 @@
 module ApplicationHelper
   
+  require 'redcarpet/compat'
+  
   #vraca titl stranice, embedovan
   
   def title
@@ -19,5 +21,9 @@ module ApplicationHelper
   def slika
     slika = image_tag("bw_logo.png")
   end
+  
+  
+
+
   
 end

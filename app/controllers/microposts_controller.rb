@@ -1,6 +1,9 @@
 class MicropostsController < ApplicationController
+  
   before_filter :authenticate, :only => [:create, :destroy]
   before_filter :authorized_user, :only => :destroy
+
+  
   
   
   def create
@@ -19,6 +22,7 @@ class MicropostsController < ApplicationController
     redirect_back_or root_path
   end
   
+  
   private
   
   def authorized_user
@@ -28,9 +32,3 @@ class MicropostsController < ApplicationController
   
 
 end
-
-
-
-
-
-
