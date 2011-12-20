@@ -4,6 +4,10 @@ group :development do
 
 gem 'faker', '0.3.1', :require => false
 
+gem 'redcarpet'
+
+gem 'auto_html'
+
 end
 
 gem 'auto_html'

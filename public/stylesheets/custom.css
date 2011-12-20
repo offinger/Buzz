@@ -5,7 +5,8 @@
 
 body
 {
-	background: #ff5fb4;
+	background-image: url(/images/bg1.png);
+	background-repeat: repeat;
 }
 
 header
