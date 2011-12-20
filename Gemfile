@@ -8,6 +8,8 @@ gem 'redcarpet'
 
 gem 'auto_html'
 
+gem 'capistrano'
+
 end
 
 gem 'rails', '3.0.5'
