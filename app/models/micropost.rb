@@ -1,20 +1,13 @@
 class Micropost < ActiveRecord::Base
   
-<<<<<<< HEAD
+
   
   auto_html_for :content do
     youtube :width => 400, :height => 250
     vimeo :width => 400, :height => 250
   end
   
-=======
-      auto_html_for :content do
-        youtube :width => 400, :height => 250
-        vimeo :width => 400, :height => 250
-      end
-      
->>>>>>> 58f0c199b6152ee8a3256f71f36c7c33e43f467c
-  
+
   attr_accessible :content
   
   belongs_to :user
