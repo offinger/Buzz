@@ -5,6 +5,8 @@ class Micropost < ActiveRecord::Base
   auto_html_for :content do
     youtube :width => 400, :height => 250
     vimeo :width => 400, :height => 250
+    
+    link :target => "_blank", :rel => "nofollow"
   end
   
 

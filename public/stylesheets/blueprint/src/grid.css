@@ -271,6 +271,7 @@ hr.space {
   clear: both;
   visibility: hidden;
   overflow:hidden;
+  
 }
 .clearfix, .container {display: block;}
 

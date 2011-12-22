@@ -82,6 +82,7 @@ a:link, a:visited {
 a:link:after, a:visited:after {
   content: " (" attr(href) ")";
   font-size: 90%;
+  
 }
 
 /* If you're having trouble printing relative links, uncomment and customize this:
