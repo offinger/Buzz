@@ -5,7 +5,7 @@
 
 body
 {
-	background-image: url(/images/bg1.png);
+	background-image: url(/images/n/5.png);
 	background-repeat: repeat;
 }
 
@@ -30,8 +30,8 @@ font-size: 200%;
 }
 /* Links */
 a {
-color: #09c;
 text-decoration: none;
+color: #0099cc;
 }
 a:hover {
 color: #069;
@@ -64,7 +64,7 @@ padding: 0 5px;
 font-weight: bold;
 }
 nav ul li a:visited {
-color: #09c;
+color: #202020;
 }
 nav ul li a:hover {
 text-decoration: underline;
